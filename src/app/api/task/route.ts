@@ -3,7 +3,7 @@ import { dbData } from "@/helper/db";
 import { NextResponse } from "next/server";
 import { NextRequest } from "next/server";
 import jwt from 'jsonwebtoken'
-import { Users } from "@/models/user"; // Import the Users model
+// import { Users } from "@/models/user"; // Import the Users model
 
 await dbData();
 
